@@ -1,0 +1,20 @@
+version: 0.0.1
+name: hello-wasm
+displayName: Hello WASM
+createdAt: "2024-05-07T09:19:39Z"
+description: Sample WASM implementation with service mesh
+logoURL: https://raw.githubusercontent.com/meshplay/meshplay.github.io/0b8585231c6e2b3251d38f749259360491c9ee6b/assets/images/brand/meshplay-logo.svg
+license: Apache-2.0
+homeURL: https://meshplay.github.io/docs/concepts/logical/designs
+links:
+    - name: download
+      url: ../../catalog/19b4edf1-a88c-4255-9544-ea7268c9b466/0.0.1/design.yml
+    - name: Meshplay Catalog
+      url: https://meshplay.github.io/catalog
+readme: "No caveats \n ##h4 Caveats and Consideration \n"
+install: meshplayctl design import -f
+provider:
+    name: 9222bde1-64c6-4fb2-971a-3402d5ae2fd9
+screenshots:
+    - title: Meshplay Project
+      url: https://raw.githubusercontent.com/meshplay/meshplay.github.io/master/assets/images/logos/meshplay-gradient.png

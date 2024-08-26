@@ -1,0 +1,31 @@
+name: Discussion data files update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' #runs every day at midnight
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    if: github.repository == 'meshplay/meshplay.github.io'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
+      - name: Fetch data for meshplay tag
+        run: curl https://discuss.khulnasoft.com/tag/meshplay.json -o _data/discuss/meshplay.json
+
+      - name: Pull changes from remote
+        run: git pull origin master
+
+      - name: Commit results
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_user_name: l5io
+          commit_user_email: ci@khulnasoft.com
+          commit_author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          commit_options: "--signoff"
+          commit_message: "Updated meshplay.json with new discussion posts"
+          branch: master

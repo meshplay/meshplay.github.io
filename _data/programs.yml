@@ -1,0 +1,31 @@
+- name: Google Season of Docs
+  imagePath: /assets/images/programs/gsod.svg
+  link: /programs/gsod/2021
+  new_window: false
+
+
+- name: Google Summer of Code
+  imagePath: /assets/images/programs/gsoc.svg
+  link: /programs/gsoc/2023
+  new_window: false
+
+
+- name: Cloud Native Computing Foundation
+  imagePath: /assets/images/programs/cncf-icon-white.svg
+  link:  /programs/meshplay/cncf
+  new_window: false
+   
+
+- name: LFX
+  imagePath: /assets/images/programs/lfx-logo.svg
+  link:  /programs/lfx/2023
+  new_window: false
+
+
+- name: MLH
+  imagePath: /assets/images/programs/mlh-logo-white.svg
+  link:  /programs/mlh
+  new_window: false
+ 
+
+       

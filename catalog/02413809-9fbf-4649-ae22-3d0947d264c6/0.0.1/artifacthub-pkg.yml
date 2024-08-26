@@ -1,0 +1,20 @@
+version: 0.0.1
+name: example-labels-and-annotations
+displayName: Example Labels and Annotations
+createdAt: "2024-05-14T11:22:29Z"
+description: This design contains example of how label and annotation can be created and organised
+logoURL: https://raw.githubusercontent.com/meshplay/meshplay.github.io/0b8585231c6e2b3251d38f749259360491c9ee6b/assets/images/brand/meshplay-logo.svg
+license: Apache-2.0
+homeURL: https://meshplay.github.io/docs/concepts/logical/designs
+links:
+    - name: download
+      url: ../../catalog/02413809-9fbf-4649-ae22-3d0947d264c6/0.0.1/design.yml
+    - name: Meshplay Catalog
+      url: https://meshplay.github.io/catalog
+readme: "No caveats \n ##h4 Caveats and Consideration \n"
+install: meshplayctl design import -f
+provider:
+    name: 090e7114-509a-4046-81f1-9c5fb8daf724
+screenshots:
+    - title: Meshplay Project
+      url: https://raw.githubusercontent.com/meshplay/meshplay.github.io/master/assets/images/logos/meshplay-gradient.png

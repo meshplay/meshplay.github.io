@@ -1,0 +1,20 @@
+version: 0.0.1
+name: simple-kubernetes-pod
+displayName: Simple Kubernetes Pod
+createdAt: "2023-05-03T21:10:05Z"
+description: Just an example of how to use a Kubernetes Pod.
+logoURL: https://raw.githubusercontent.com/meshplay/meshplay.github.io/0b8585231c6e2b3251d38f749259360491c9ee6b/assets/images/brand/meshplay-logo.svg
+license: Apache-2.0
+homeURL: https://meshplay.github.io/docs/concepts/logical/designs
+links:
+    - name: download
+      url: ../../catalog/d20a6041-ed06-454a-9d69-739ebaed4651/0.0.1/design.yml
+    - name: Meshplay Catalog
+      url: https://meshplay.github.io/catalog
+readme: "None \n ##h4 Caveats and Consideration \n"
+install: meshplayctl design import -f
+provider:
+    name: 61e7ef73-54e5-4c7a-ae12-fe6e3e8da18b
+screenshots:
+    - title: Meshplay Project
+      url: https://raw.githubusercontent.com/meshplay/meshplay.github.io/master/assets/images/logos/meshplay-gradient.png

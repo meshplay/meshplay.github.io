@@ -1,0 +1,20 @@
+version: 0.0.1
+name: busybox-(single)-(fresh)
+displayName: Busybox (single) (fresh)
+createdAt: "2024-05-08T19:37:14Z"
+description: This design deploys simple busybox app inside KhulnaSoft-test namespace
+logoURL: https://raw.githubusercontent.com/meshplay/meshplay.github.io/0b8585231c6e2b3251d38f749259360491c9ee6b/assets/images/brand/meshplay-logo.svg
+license: Apache-2.0
+homeURL: https://meshplay.github.io/docs/concepts/logical/designs
+links:
+    - name: download
+      url: ../../catalog/3ec30961-1aba-4db7-86c5-7556de5d90ca/0.0.1/design.yml
+    - name: Meshplay Catalog
+      url: https://meshplay.github.io/catalog
+readme: "None \n ##h4 Caveats and Consideration \n"
+install: meshplayctl design import -f
+provider:
+    name: 090e7114-509a-4046-81f1-9c5fb8daf724
+screenshots:
+    - title: Meshplay Project
+      url: https://raw.githubusercontent.com/meshplay/meshplay.github.io/master/assets/images/logos/meshplay-gradient.png

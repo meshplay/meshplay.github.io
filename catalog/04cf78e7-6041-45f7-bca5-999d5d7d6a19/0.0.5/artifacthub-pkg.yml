@@ -1,0 +1,24 @@
+version: 0.0.5
+name: dapr-
+displayName: 'Dapr '
+createdAt: "2024-08-06T18:19:16Z"
+description: A standard Dapr control plane design.
+logoURL: https://raw.githubusercontent.com/meshplay/meshplay.github.io/0b8585231c6e2b3251d38f749259360491c9ee6b/assets/images/brand/meshplay-logo.svg
+license: Apache-2.0
+homeURL: https://meshplay.github.io/docs/concepts/logical/designs
+links:
+    - name: download
+      url: ../../catalog/04cf78e7-6041-45f7-bca5-999d5d7d6a19/0.0.5/design.yml
+    - name: Meshplay Catalog
+      url: https://meshplay.github.io/catalog
+readme: "none \n ##h4 Caveats and Consideration \n"
+install: meshplayctl design import -f
+provider:
+    name: 969bfd5e-28fb-4c20-a020-ee9db65da812
+screenshots:
+    - title: MeshMap Snapshot
+      url: https://raw.githubusercontent.com/khulnasoft/meshplay-extensions-packages/master/action-assets/design-assets/04cf78e7-6041-45f7-bca5-999d5d7d6a19-light.png
+    - title: MeshMap Snapshot
+      url: https://raw.githubusercontent.com/khulnasoft/meshplay-extensions-packages/master/action-assets/design-assets/04cf78e7-6041-45f7-bca5-999d5d7d6a19-dark.png
+    - title: Meshplay Project
+      url: https://raw.githubusercontent.com/meshplay/meshplay.github.io/master/assets/images/logos/meshplay-gradient.png

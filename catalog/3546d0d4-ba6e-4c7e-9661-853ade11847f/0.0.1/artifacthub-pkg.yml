@@ -1,0 +1,20 @@
+version: 0.0.1
+name: wordpress-and-mysql-on-kubernetes
+displayName: Wordpress and MySql on Kubernetes
+createdAt: "2024-01-29T02:47:22Z"
+description: This MeshMap design deploys a scalable and robust WordPress application, backed by a MySQL database, on a Kubernetes cluster. The design leverages Kubernetes resources to ensure high availability, efficient scaling, and ease of management for the WordPress site.
+logoURL: https://raw.githubusercontent.com/meshplay/meshplay.github.io/0b8585231c6e2b3251d38f749259360491c9ee6b/assets/images/brand/meshplay-logo.svg
+license: Apache-2.0
+homeURL: https://meshplay.github.io/docs/concepts/logical/designs
+links:
+    - name: download
+      url: ../../catalog/3546d0d4-ba6e-4c7e-9661-853ade11847f/0.0.1/design.yml
+    - name: Meshplay Catalog
+      url: https://meshplay.github.io/catalog
+readme: "1. Ensure that your Kubernetes cluster has sufficient resources (CPU, memory, and storage) to handle the demands of both the WordPress and MySQL pods.\n\n2. Properly set resource requests and limits to avoid resource contention, which could affect performance. \n ##h4 Caveats and Consideration \n"
+install: meshplayctl design import -f
+provider:
+    name: 6126611f-41d6-4206-8504-822a5262d110
+screenshots:
+    - title: Meshplay Project
+      url: https://raw.githubusercontent.com/meshplay/meshplay.github.io/master/assets/images/logos/meshplay-gradient.png

@@ -1,0 +1,42 @@
+---
+layout: plain
+title: Helm Charts | Meshplay
+permalink: /charts
+description: Meshplay Helm Charts Repo
+---
+<style>
+    h1 {margin-top: 1rem;}
+    h2 {display:flex;}
+    code {font-size: 1rem;}
+</style>
+<br />
+<h1>Meshplay Helm Repository</h1>
+
+<p>Contained in the Meshplay Helm repository are two charts one of which contains many subcharts:</p>
+    
+<h2>Chart Contents</h2>
+<ul>
+    <li><a href="https://meshplay.github.io/docs/concepts/architecture">Meshplay</a> chart with subcharts for each Meshplay Adapter.</li>
+    <li><a href="https://meshplay.github.io/docs/concepts/architecture/operator">Meshplay Operator</a> chart, which can be independently installed using <code>meshplayctl</code>, <code>helm</code>, or installed by Meshplay Server.</li>
+</ul> 
+
+<p>See the repository's <a href="/charts/index.yaml">full index</a> of Meshplay and Meshplay Operator Helm Charts</a>.
+</p>
+
+<h2>Helm-based Installations</h2>
+
+<ol>
+    <li>Install Meshplay on Kubernetes using Helm. Deploy Meshplay in Kubernetes in-cluster. (<a href="https://meshplay.github.io/docs/installation/kubernetes/helm">docs</a>)</li>
+    <li>Install Meshplay on Kubernetes using Meshplay CLI. Deploy Meshplay in Kubernetes in-cluster (or out-of-cluster). (<a href="https://meshplay.github.io/docs/installation/meshplayctl">docs</a>)</li>
+    <li>Connect Meshplay Server to a Kubernetes cluster and Meshplay Server will install Meshplay Operator automatically.</li>
+</ol>
+
+<h2>Customizing Meshplay’s Installation with values.yaml</h2>
+
+<p>Meshplay’s Helm charts support a number of configuration options. Please refer to the <a href="https://github.com/meshplay/meshplay/tree/master/install/kubernetes/helm/meshplay#readme">Meshplay Helm chart README</a> and <a href="https://github.com/meshplay/meshplay/tree/master/install/kubernetes/helm/meshplay-operator#readme">Meshplay Operator Helm chart README</a> for more information.</p>
+
+<h2>Chart Source</h2>
+
+<p>The source for these charts is located in the <code>meshplay/meshplay</code> repository under <a href="https://github.com/meshplay/meshplay/tree/master/install/kubernetes/helm">install/kubernetes/helm</a>.</p>
+
+<br />

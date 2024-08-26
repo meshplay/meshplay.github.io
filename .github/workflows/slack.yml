@@ -1,0 +1,16 @@
+name: Slack Notify on Star
+on: watch
+jobs:
+  star-notify:
+    name: Notify Slack on star
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Get current star count
+      run: |
+        echo "STARS=$(curl --silent 'https://api.github.com/repos/meshplay/meshplay.github.io' -H 'Accept: application/vnd.github.preview' | jq '.stargazers_count')" >> $GITHUB_ENV
+    - name: Notify slack
+      env:
+        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      uses: pullreminders/slack-action@master
+      with:
+        args: '{\"channel\":\"CSK7N9TGX\",\"text\":\"${{ github.actor }} just starred Meshplay.github.io! (https://github.com/meshplay/meshplay.github.io/stargazers) Total ⭐️: ${{env.STARS}}\"}'

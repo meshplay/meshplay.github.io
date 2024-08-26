@@ -1,0 +1,20 @@
+version: 0.0.1
+name: argocd-application-[components-added-for-network,-storage-and-orchestration]
+displayName: ArgoCD-Application [Components added for Network, Storage and Orchestration]
+createdAt: "2023-05-28T22:52:19Z"
+description: This is design that deploys ArgoCD application that includes Nginx virtual service, Nginx server, K8s pod autoscaler, OpenEBS's Jiva volume, and a sample ArgoCD application listening on 127.0.0.4
+logoURL: https://raw.githubusercontent.com/meshplay/meshplay.github.io/0b8585231c6e2b3251d38f749259360491c9ee6b/assets/images/brand/meshplay-logo.svg
+license: Apache-2.0
+homeURL: https://meshplay.github.io/docs/concepts/logical/designs
+links:
+    - name: download
+      url: ../../catalog/9268856a-57e4-41e0-a18c-03f714f1c023/0.0.1/design.yml
+    - name: Meshplay Catalog
+      url: https://meshplay.github.io/catalog
+readme: "Ensure networking is setup properly \n ##h4 Caveats and Consideration \n"
+install: meshplayctl design import -f
+provider:
+    name: 60d7dbbf-2489-4f41-81b9-8edf4605d939
+screenshots:
+    - title: Meshplay Project
+      url: https://raw.githubusercontent.com/meshplay/meshplay.github.io/master/assets/images/logos/meshplay-gradient.png

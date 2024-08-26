@@ -1,0 +1,20 @@
+version: 0.0.1
+name: resilient-web-app
+displayName: Resilient Web App
+createdAt: "2023-09-25T18:26:32Z"
+description: This is a simple app that uses nginx as a web proxy for improving the resiliency of web app
+logoURL: https://raw.githubusercontent.com/meshplay/meshplay.github.io/0b8585231c6e2b3251d38f749259360491c9ee6b/assets/images/brand/meshplay-logo.svg
+license: Apache-2.0
+homeURL: https://meshplay.github.io/docs/concepts/logical/designs
+links:
+    - name: download
+      url: ../../catalog/189a3e71-8be9-4e64-9fed-150a9b1060de/0.0.1/design.yml
+    - name: Meshplay Catalog
+      url: https://meshplay.github.io/catalog
+readme: "Networking should be properly configured to enable communication between the frontend and backend components of the app. \n ##h4 Caveats and Consideration \n"
+install: meshplayctl design import -f
+provider:
+    name: 090e7114-509a-4046-81f1-9c5fb8daf724
+screenshots:
+    - title: Meshplay Project
+      url: https://raw.githubusercontent.com/meshplay/meshplay.github.io/master/assets/images/logos/meshplay-gradient.png

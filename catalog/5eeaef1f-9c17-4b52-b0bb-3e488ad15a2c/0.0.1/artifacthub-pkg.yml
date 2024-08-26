@@ -1,0 +1,20 @@
+version: 0.0.1
+name: meshplay-v0.6.73
+displayName: Meshplay v0.6.73
+createdAt: "2023-04-11T05:03:22Z"
+description: A self-service engineering platform, Meshplay, is the open source, cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications. Among other features, As an extensible platform, Meshplay offers visual and collaborative GitOps, freeing you from the chains of YAML while managing Kubernetes multi-cluster deployments.
+logoURL: https://raw.githubusercontent.com/meshplay/meshplay.github.io/0b8585231c6e2b3251d38f749259360491c9ee6b/assets/images/brand/meshplay-logo.svg
+license: Apache-2.0
+homeURL: https://meshplay.github.io/docs/concepts/logical/designs
+links:
+    - name: download
+      url: ../../catalog/5eeaef1f-9c17-4b52-b0bb-3e488ad15a2c/0.0.1/design.yml
+    - name: Meshplay Catalog
+      url: https://meshplay.github.io/catalog
+readme: "Not for Production deployment. Does not include Meshplay Cloud. \n ##h4 Caveats and Consideration \n"
+install: meshplayctl design import -f
+provider:
+    name: 090e7114-509a-4046-81f1-9c5fb8daf724
+screenshots:
+    - title: Meshplay Project
+      url: https://raw.githubusercontent.com/meshplay/meshplay.github.io/master/assets/images/logos/meshplay-gradient.png

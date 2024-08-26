@@ -1,0 +1,20 @@
+version: 0.0.1
+name: apache-shardingsphere-operator
+displayName: Apache ShardingSphere Operator
+createdAt: "2023-05-11T14:48:24Z"
+description: The ShardingSphere Kubernetes Operator automates provisioning, management, and operations of ShardingSphere Proxy clusters running on Kubernetes. Apache ShardingSphere is an ecosystem to transform any database into a distributed database system, and enhance it with sharding, elastic scaling, encryption features & more.
+logoURL: https://raw.githubusercontent.com/meshplay/meshplay.github.io/0b8585231c6e2b3251d38f749259360491c9ee6b/assets/images/brand/meshplay-logo.svg
+license: Apache-2.0
+homeURL: https://meshplay.github.io/docs/concepts/logical/designs
+links:
+    - name: download
+      url: ../../catalog/51c39685-93ce-4803-b36c-ffdfeb40f1aa/0.0.1/design.yml
+    - name: Meshplay Catalog
+      url: https://meshplay.github.io/catalog
+readme: "Ensure Apache ShardingSphere and Knative Service is registered as a MeshModel \n ##h4 Caveats and Consideration \n"
+install: meshplayctl design import -f
+provider:
+    name: 0f0e1517-b824-4d90-b9a8-c5791eedf3c2
+screenshots:
+    - title: Meshplay Project
+      url: https://raw.githubusercontent.com/meshplay/meshplay.github.io/master/assets/images/logos/meshplay-gradient.png
